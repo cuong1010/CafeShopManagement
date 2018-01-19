@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLcafe" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="QLcafeContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Users" EntityType="QLcafe.Users" />
+  </EntityContainer>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="String" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="TaiKhoan" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="MatKhau" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="NgaySinh" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,264 @@
+c:\users\pc1\documents\visual studio 2012\Projects\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+D:\OOP\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+D:\OOP\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+D:\OOP\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+D:\OOP\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+D:\OOP\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+D:\OOP\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+D:\OOP\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+D:\OOP\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+D:\OOP\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+D:\OOP\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+D:\OOP\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+D:\OOP\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Admin.resources
+F:\HĐT\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+F:\HĐT\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+F:\HĐT\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+F:\HĐT\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+F:\HĐT\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+H:\HĐT\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+H:\HĐT\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+H:\HĐT\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+H:\HĐT\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+H:\HĐT\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QLTKND.resources
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Cauhinh.resources
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhBan.resources
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhLoaiSP.resources
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhNguyenLieu.resources
+C:\Users\LEDUNG\Downloads\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhSanPham.resources
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Cauhinh.resources
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhBan.resources
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhLoaiSP.resources
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhNguyenLieu.resources
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhSanPham.resources
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QLTKND.resources
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+D:\CNTT\dung\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Cauhinh.resources
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhBan.resources
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhLoaiSP.resources
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhNguyenLieu.resources
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhSanPham.resources
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QLTKND.resources
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+H:\CafecuaDung\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Cauhinh.resources
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhBan.resources
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhLoaiSP.resources
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhNguyenLieu.resources
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhSanPham.resources
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QLTKND.resources
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+C:\Users\LEDUNG\Downloads\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Cauhinh.resources
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhBan.resources
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhLoaiSP.resources
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhNguyenLieu.resources
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhSanPham.resources
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QLTKND.resources
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+J:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Cauhinh.resources
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhBan.resources
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhLoaiSP.resources
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhNguyenLieu.resources
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhSanPham.resources
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QLTKND.resources
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+F:\1\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Cauhinh.resources
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhBan.resources
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhLoaiSP.resources
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhNguyenLieu.resources
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhSanPham.resources
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QLTKND.resources
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+C:\Users\PC1\Desktop\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Cauhinh.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhBan.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhLoaiSP.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhNguyenLieu.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhSanPham.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QLTKND.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhapHang.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.DatHang.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QuenMK.resources
+C:\Users\LEDUNG\Downloads\HĐT\Cuong\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.ThongKe.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Cauhinh.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhLoaiSP.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhNguyenLieu.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhSanPham.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.DatHang.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhapHang.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QLTKND.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QuenMK.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.ThongKe.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+J:\1\heo đẹp\sua hdt\QLcafe (4)\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+C:\Users\PC\Desktop\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+C:\Users\PC\Desktop\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+C:\Users\PC\Desktop\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Cauhinh.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhLoaiSP.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhNguyenLieu.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.CauhinhSanPham.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.DatHang.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhapHang.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QLTKND.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QuenMK.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.ThongKe.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+C:\Users\PC\Desktop\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QuenMK.resources
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.ThongKe.resources
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Tong.resources
+C:\Users\LEDUNG\Downloads\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.TTDH.resources
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Tong.resources
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QuenMK.resources
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.ThongKe.resources
+F:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.TTDH.resources
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Admin.resources
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.QuenMK.resources
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.ThongKe.resources
+H:\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.TTDH.resources
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\bin\Debug\QLcafe.exe.config
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.exe
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.pdb
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\bin\Debug\QLcafe.exe
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\bin\Debug\QLcafe.pdb
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\bin\Debug\EntityFramework.dll
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\bin\Debug\EntityFramework.xml
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Admin.resources
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.Login.resources
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.FORM.NhanVien.resources
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.Properties.Resources.resources
+C:\Users\PC\Desktop\HĐT\QLcafe\QLcafe\obj\Debug\QLcafe.csproj.GenerateResource.Cache

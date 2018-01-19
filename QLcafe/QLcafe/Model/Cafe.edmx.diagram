@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2fe27b99bfca44c58a6d39394d7f9f7a" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="CafeModel.Ban" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CafeModel.CTHD" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CafeModel.HoaDon" Width="1.5" PointX="3.125" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CafeModel.LoaiSP" Width="1.5" PointX="7" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CafeModel.NguoiDung" Width="1.5" PointX="0.875" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CafeModel.PhieuNhap" Width="1.5" PointX="7.125" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="CafeModel.SanPham" Width="1.5" PointX="3.625" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="CafeModel.FK_HoaDonBan" ManuallyRouted="false" />
+        <AssociationConnector Association="CafeModel.FK_CTHDSanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="CafeModel.FK_HoaDonCTHD" ManuallyRouted="false" />
+        <AssociationConnector Association="CafeModel.FK_HoaDonUser" ManuallyRouted="false" ></AssociationConnector>
+        <AssociationConnector Association="CafeModel.FK_SanPhamLoaiSP" ManuallyRouted="false" />
+        <AssociationConnector Association="CafeModel.BanNguoiDung" />
+        <EntityTypeShape EntityType="CafeModel.NguyenLieu" Width="1.5" PointX="11" PointY="5.125" />
+        <EntityTypeShape EntityType="CafeModel.DSDatHang" Width="1.5" PointX="12.625" PointY="1.625" />
+        <AssociationConnector Association="CafeModel.DSDatHangNguyenLieu" />
+        <AssociationConnector Association="CafeModel.PhieuNhapNguyenLieu" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

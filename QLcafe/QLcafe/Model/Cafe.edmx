@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CafeModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="CafeModelStoreContainer">
+    <EntitySet Name="Bans" EntityType="CafeModel.Store.Bans" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="CTHDs" EntityType="CafeModel.Store.CTHDs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="HoaDons" EntityType="CafeModel.Store.HoaDons" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="LoaiSPs" EntityType="CafeModel.Store.LoaiSPs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NguoiDungs" EntityType="CafeModel.Store.NguoiDungs" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhieuNhaps" EntityType="CafeModel.Store.PhieuNhaps" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SanPhams" EntityType="CafeModel.Store.SanPhams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="NguyenLieus" EntityType="CafeModel.Store.NguyenLieus" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DSDatHangs" EntityType="CafeModel.Store.DSDatHangs" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_HoaDonBan" Association="CafeModel.Store.FK_HoaDonBan">
+      <End Role="Bans" EntitySet="Bans" />
+      <End Role="HoaDons" EntitySet="HoaDons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CTHDSanPham" Association="CafeModel.Store.FK_CTHDSanPham">
+      <End Role="SanPhams" EntitySet="SanPhams" />
+      <End Role="CTHDs" EntitySet="CTHDs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HoaDonCTHD" Association="CafeModel.Store.FK_HoaDonCTHD">
+      <End Role="HoaDons" EntitySet="HoaDons" />
+      <End Role="CTHDs" EntitySet="CTHDs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HoaDonUser" Association="CafeModel.Store.FK_HoaDonUser">
+      <End Role="NguoiDungs" EntitySet="NguoiDungs" />
+      <End Role="HoaDons" EntitySet="HoaDons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SanPhamLoaiSP" Association="CafeModel.Store.FK_SanPhamLoaiSP">
+      <End Role="LoaiSPs" EntitySet="LoaiSPs" />
+      <End Role="SanPhams" EntitySet="SanPhams" />
+    </AssociationSet>
+    <AssociationSet Name="BanNguoiDung" Association="CafeModel.Store.BanNguoiDung">
+      <End Role="Ban" EntitySet="Bans" />
+      <End Role="NguoiDung" EntitySet="NguoiDungs" />
+    </AssociationSet>
+    <AssociationSet Name="DSDatHangNguyenLieu" Association="CafeModel.Store.DSDatHangNguyenLieu">
+      <End Role="DSDatHang" EntitySet="DSDatHangs" />
+      <End Role="NguyenLieu" EntitySet="NguyenLieus" />
+    </AssociationSet>
+    <AssociationSet Name="PhieuNhapNguyenLieu" Association="CafeModel.Store.PhieuNhapNguyenLieu">
+      <End Role="PhieuNhap" EntitySet="PhieuNhaps" />
+      <End Role="NguyenLieu" EntitySet="NguyenLieus" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Bans">
+    <Key>
+      <PropertyRef Name="MaBan" />
+    </Key>
+    <Property Name="MaBan" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="TenBan" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MaPhucVu" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="SucChua" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CTHDs">
+    <Key>
+      <PropertyRef Name="MaHoaDon" />
+      <PropertyRef Name="MaSanPham" />
+      <PropertyRef Name="ThoiGianGoi" />
+    </Key>
+    <Property Name="MaHoaDon" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="MaSanPham" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="SoLuong" Type="int" Nullable="false" />
+    <Property Name="ThoiGianGoi" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HoaDons">
+    <Key>
+      <PropertyRef Name="MaHoaDon" />
+    </Key>
+    <Property Name="MaHoaDon" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="TrangThai" Type="bit" Nullable="false" />
+    <Property Name="MaBan" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="TongTien" Type="int" Nullable="false" />
+    <Property Name="Ngay" Type="datetime" Nullable="false" />
+    <Property Name="MaThuNgan" Type="nvarchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="LoaiSPs">
+    <Key>
+      <PropertyRef Name="MaLoaiSP" />
+    </Key>
+    <Property Name="MaLoaiSP" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="TenLoaiSP" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NguoiDungs">
+    <Key>
+      <PropertyRef Name="MaNguoiDung" />
+    </Key>
+    <Property Name="MaNguoiDung" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="TaiKhoan" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="MatKhau" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="NgaySinh" Type="datetime" Nullable="false" />
+    <Property Name="QuyenHan" Type="int" Nullable="false" />
+    <Property Name="TenNguoiDung" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PhieuNhaps">
+    <Key>
+      <PropertyRef Name="Ngay" />
+    </Key>
+    <Property Name="Ngay" Type="datetime" Nullable="false" />
+    <Property Name="SoTienTra" Type="int" Nullable="false" />
+    <Property Name="SoLuongNhap" Type="int" Nullable="false" />
+    <Property Name="MaNguyenLieu" Type="nvarchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="SanPhams">
+    <Key>
+      <PropertyRef Name="MaSanPham" />
+    </Key>
+    <Property Name="MaSanPham" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="TenSanPham" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="MaLoaiSP" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="DonGiaBan" Type="int" Nullable="false" />
+    <Property Name="DonVi" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="TrangThai" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="NguyenLieus">
+    <Key>
+      <PropertyRef Name="MaNguyenLieu" />
+    </Key>
+    <Property Name="MaNguyenLieu" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="TenNguyenLieu" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DonGiaNhap" Type="int" Nullable="false" />
+    <Property Name="NhaCungCap" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DonVi" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="SLConThieu" Type="int" Nullable="false" />
+    <Property Name="TienConNo" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DSDatHangs">
+    <Key>
+      <PropertyRef Name="NgayDat" />
+      <PropertyRef Name="MaNguyenLieu" />
+    </Key>
+    <Property Name="NgayDat" Type="datetime" Nullable="false" />
+    <Property Name="SoLuong" Type="int" Nullable="false" />
+    <Property Name="MaNguyenLieu" Type="nvarchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <Association Name="FK_HoaDonBan">
+    <End Role="Bans" Type="CafeModel.Store.Bans" Multiplicity="1" />
+    <End Role="HoaDons" Type="CafeModel.Store.HoaDons" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Bans">
+        <PropertyRef Name="MaBan" />
+      </Principal>
+      <Dependent Role="HoaDons">
+        <PropertyRef Name="MaBan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CTHDSanPham">
+    <End Role="SanPhams" Type="CafeModel.Store.SanPhams" Multiplicity="1" />
+    <End Role="CTHDs" Type="CafeModel.Store.CTHDs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SanPhams">
+        <PropertyRef Name="MaSanPham" />
+      </Principal>
+      <Dependent Role="CTHDs">
+        <PropertyRef Name="MaSanPham" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HoaDonCTHD">
+    <End Role="HoaDons" Type="CafeModel.Store.HoaDons" Multiplicity="1" />
+    <End Role="CTHDs" Type="CafeModel.Store.CTHDs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HoaDons">
+        <PropertyRef Name="MaHoaDon" />
+      </Principal>
+      <Dependent Role="CTHDs">
+        <PropertyRef Name="MaHoaDon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HoaDonUser">
+    <End Role="NguoiDungs" Type="CafeModel.Store.NguoiDungs" Multiplicity="1" />
+    <End Role="HoaDons" Type="CafeModel.Store.HoaDons" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NguoiDungs">
+        <PropertyRef Name="MaNguoiDung" />
+      </Principal>
+      <Dependent Role="HoaDons">
+        <PropertyRef Name="MaThuNgan" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SanPhamLoaiSP">
+    <End Role="LoaiSPs" Type="CafeModel.Store.LoaiSPs" Multiplicity="1" />
+    <End Role="SanPhams" Type="CafeModel.Store.SanPhams" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiSPs">
+        <PropertyRef Name="MaLoaiSP" />
+      </Principal>
+      <Dependent Role="SanPhams">
+        <PropertyRef Name="MaLoaiSP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="BanNguoiDung">
+    <End Role="Ban" Type="CafeModel.Store.Bans" Multiplicity="*" />
+    <End Role="NguoiDung" Type="CafeModel.Store.NguoiDungs" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="NguoiDung">
+        <PropertyRef Name="MaNguoiDung" />
+      </Principal>
+      <Dependent Role="Ban">
+        <PropertyRef Name="MaPhucVu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="DSDatHangNguyenLieu">
+    <End Role="DSDatHang" Type="CafeModel.Store.DSDatHangs" Multiplicity="*" />
+    <End Role="NguyenLieu" Type="CafeModel.Store.NguyenLieus" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="NguyenLieu">
+        <PropertyRef Name="MaNguyenLieu" />
+      </Principal>
+      <Dependent Role="DSDatHang">
+        <PropertyRef Name="MaNguyenLieu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PhieuNhapNguyenLieu">
+    <End Role="PhieuNhap" Type="CafeModel.Store.PhieuNhaps" Multiplicity="*" />
+    <End Role="NguyenLieu" Type="CafeModel.Store.NguyenLieus" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="NguyenLieu">
+        <PropertyRef Name="MaNguyenLieu" />
+      </Principal>
+      <Dependent Role="PhieuNhap">
+        <PropertyRef Name="MaNguyenLieu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CafeModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="CafeEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Bans" EntityType="CafeModel.Ban" />
+          <EntitySet Name="CTHDs" EntityType="CafeModel.CTHD" />
+          <EntitySet Name="HoaDons" EntityType="CafeModel.HoaDon" />
+          <EntitySet Name="LoaiSPs" EntityType="CafeModel.LoaiSP" />
+          <EntitySet Name="NguoiDungs" EntityType="CafeModel.NguoiDung" />
+          <EntitySet Name="PhieuNhaps" EntityType="CafeModel.PhieuNhap" />
+          <EntitySet Name="SanPhams" EntityType="CafeModel.SanPham" />
+          <AssociationSet Name="FK_HoaDonBan" Association="CafeModel.FK_HoaDonBan">
+            <End Role="Bans" EntitySet="Bans" />
+            <End Role="HoaDons" EntitySet="HoaDons" />
+          </AssociationSet>
+          <AssociationSet Name="FK_CTHDSanPham" Association="CafeModel.FK_CTHDSanPham">
+            <End Role="SanPhams" EntitySet="SanPhams" />
+            <End Role="CTHDs" EntitySet="CTHDs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HoaDonCTHD" Association="CafeModel.FK_HoaDonCTHD">
+            <End Role="HoaDons" EntitySet="HoaDons" />
+            <End Role="CTHDs" EntitySet="CTHDs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_HoaDonUser" Association="CafeModel.FK_HoaDonUser">
+            <End Role="NguoiDungs" EntitySet="NguoiDungs" />
+            <End Role="HoaDons" EntitySet="HoaDons" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SanPhamLoaiSP" Association="CafeModel.FK_SanPhamLoaiSP">
+            <End Role="LoaiSPs" EntitySet="LoaiSPs" />
+            <End Role="SanPhams" EntitySet="SanPhams" />
+          </AssociationSet>
+          <AssociationSet Name="BanNguoiDung" Association="CafeModel.BanNguoiDung">
+            <End Role="Ban" EntitySet="Bans" />
+            <End Role="NguoiDung" EntitySet="NguoiDungs" />
+          </AssociationSet>
+          <EntitySet Name="NguyenLieus" EntityType="CafeModel.NguyenLieu" />
+          <EntitySet Name="DSDatHangs" EntityType="CafeModel.DSDatHang" />
+          <AssociationSet Name="DSDatHangNguyenLieu" Association="CafeModel.DSDatHangNguyenLieu">
+            <End Role="DSDatHang" EntitySet="DSDatHangs" />
+            <End Role="NguyenLieu" EntitySet="NguyenLieus" />
+          </AssociationSet>
+          <AssociationSet Name="PhieuNhapNguyenLieu" Association="CafeModel.PhieuNhapNguyenLieu">
+            <End Role="PhieuNhap" EntitySet="PhieuNhaps" />
+            <End Role="NguyenLieu" EntitySet="NguyenLieus" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Ban">
+          <Key>
+            <PropertyRef Name="MaBan" />
+          </Key>
+          <Property Name="MaBan" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="TenBan" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="HoaDons" Relationship="CafeModel.FK_HoaDonBan" FromRole="Bans" ToRole="HoaDons" />
+          <NavigationProperty Name="NguoiDung" Relationship="CafeModel.BanNguoiDung" FromRole="Ban" ToRole="NguoiDung" />
+          <Property Type="String" Name="MaPhucVu" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="SucChua" Nullable="false" />
+        </EntityType>
+        <EntityType Name="CTHD">
+          <Key>
+            <PropertyRef Name="MaHoaDon" />
+            <PropertyRef Name="MaSanPham" />
+            <PropertyRef Name="ThoiGianGoi" />
+          </Key>
+          <Property Name="MaHoaDon" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="MaSanPham" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="SoLuong" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="SanPham" Relationship="CafeModel.FK_CTHDSanPham" FromRole="CTHDs" ToRole="SanPhams" />
+          <NavigationProperty Name="HoaDon" Relationship="CafeModel.FK_HoaDonCTHD" FromRole="CTHDs" ToRole="HoaDons" />
+          <Property Type="DateTime" Name="ThoiGianGoi" Nullable="false" />
+        </EntityType>
+        <EntityType Name="HoaDon">
+          <Key>
+            <PropertyRef Name="MaHoaDon" />
+          </Key>
+          <Property Name="MaHoaDon" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="TrangThai" Type="Boolean" Nullable="false" />
+          <Property Name="MaBan" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="TongTien" Type="Int32" Nullable="false" />
+          <Property Name="Ngay" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="MaThuNgan" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Ban" Relationship="CafeModel.FK_HoaDonBan" FromRole="HoaDons" ToRole="Bans" />
+          <NavigationProperty Name="CTHDs" Relationship="CafeModel.FK_HoaDonCTHD" FromRole="HoaDons" ToRole="CTHDs" />
+          <NavigationProperty Name="NguoiDung" Relationship="CafeModel.FK_HoaDonUser" FromRole="HoaDons" ToRole="NguoiDungs" />
+        </EntityType>
+        <EntityType Name="LoaiSP">
+          <Key>
+            <PropertyRef Name="MaLoaiSP" />
+          </Key>
+          <Property Name="MaLoaiSP" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="TenLoaiSP" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="SanPhams" Relationship="CafeModel.FK_SanPhamLoaiSP" FromRole="LoaiSPs" ToRole="SanPhams" />
+        </EntityType>
+        <EntityType Name="NguoiDung">
+          <Key>
+            <PropertyRef Name="MaNguoiDung" />
+          </Key>
+          <Property Name="MaNguoiDung" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="TaiKhoan" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="MatKhau" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="NgaySinh" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="QuyenHan" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="HoaDons" Relationship="CafeModel.FK_HoaDonUser" FromRole="NguoiDungs" ToRole="HoaDons" />
+          <Property Type="String" Name="TenNguoiDung" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Bans" Relationship="CafeModel.BanNguoiDung" FromRole="NguoiDung" ToRole="Ban" />
+        </EntityType>
+        <EntityType Name="PhieuNhap">
+          <Key>
+            <PropertyRef Name="Ngay" />
+          </Key>
+          <Property Type="DateTime" Name="Ngay" Nullable="false" Precision="3" />
+          <Property Type="Int32" Name="SoTienTra" Nullable="false" />
+          <Property Type="Int32" Name="SoLuongNhap" Nullable="false" />
+          <NavigationProperty Name="NguyenLieu" Relationship="CafeModel.PhieuNhapNguyenLieu" FromRole="PhieuNhap" ToRole="NguyenLieu" />
+          <Property Type="String" Name="MaNguyenLieu" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="SanPham">
+          <Key>
+            <PropertyRef Name="MaSanPham" />
+          </Key>
+          <Property Name="MaSanPham" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="TenSanPham" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="MaLoaiSP" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+          <Property Name="DonGiaBan" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="CTHDs" Relationship="CafeModel.FK_CTHDSanPham" FromRole="SanPhams" ToRole="CTHDs" />
+          <NavigationProperty Name="LoaiSP" Relationship="CafeModel.FK_SanPhamLoaiSP" FromRole="SanPhams" ToRole="LoaiSPs" />
+          <Property Type="String" Name="DonVi" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="TrangThai" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_HoaDonBan">
+          <End Role="Bans" Type="CafeModel.Ban" Multiplicity="1" />
+          <End Role="HoaDons" Type="CafeModel.HoaDon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Bans">
+              <PropertyRef Name="MaBan" />
+            </Principal>
+            <Dependent Role="HoaDons">
+              <PropertyRef Name="MaBan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_CTHDSanPham">
+          <End Role="SanPhams" Type="CafeModel.SanPham" Multiplicity="1" />
+          <End Role="CTHDs" Type="CafeModel.CTHD" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SanPhams">
+              <PropertyRef Name="MaSanPham" />
+            </Principal>
+            <Dependent Role="CTHDs">
+              <PropertyRef Name="MaSanPham" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HoaDonCTHD">
+          <End Role="HoaDons" Type="CafeModel.HoaDon" Multiplicity="1" />
+          <End Role="CTHDs" Type="CafeModel.CTHD" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="HoaDons">
+              <PropertyRef Name="MaHoaDon" />
+            </Principal>
+            <Dependent Role="CTHDs">
+              <PropertyRef Name="MaHoaDon" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_HoaDonUser">
+          <End Role="NguoiDungs" Type="CafeModel.NguoiDung" Multiplicity="1" />
+          <End Role="HoaDons" Type="CafeModel.HoaDon" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NguoiDungs">
+              <PropertyRef Name="MaNguoiDung" />
+            </Principal>
+            <Dependent Role="HoaDons">
+              <PropertyRef Name="MaThuNgan" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SanPhamLoaiSP">
+          <End Role="LoaiSPs" Type="CafeModel.LoaiSP" Multiplicity="1" />
+          <End Role="SanPhams" Type="CafeModel.SanPham" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LoaiSPs">
+              <PropertyRef Name="MaLoaiSP" />
+            </Principal>
+            <Dependent Role="SanPhams">
+              <PropertyRef Name="MaLoaiSP" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="BanNguoiDung">
+          <End Type="CafeModel.Ban" Role="Ban" Multiplicity="*" />
+          <End Type="CafeModel.NguoiDung" Role="NguoiDung" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="NguoiDung">
+              <PropertyRef Name="MaNguoiDung" />
+            </Principal>
+            <Dependent Role="Ban">
+              <PropertyRef Name="MaPhucVu" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="NguyenLieu">
+          <Key>
+            <PropertyRef Name="MaNguyenLieu" />
+          </Key>
+          <Property Type="String" Name="MaNguyenLieu" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TenNguyenLieu" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="DonGiaNhap" Nullable="false" />
+          <Property Type="String" Name="NhaCungCap" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="DonVi" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="DSDatHangs" Relationship="CafeModel.DSDatHangNguyenLieu" FromRole="NguyenLieu" ToRole="DSDatHang" />
+          <Property Type="Int32" Name="SLConThieu" Nullable="false" />
+          <Property Type="Int32" Name="TienConNo" Nullable="false" />
+          <NavigationProperty Name="PhieuNhaps" Relationship="CafeModel.PhieuNhapNguyenLieu" FromRole="NguyenLieu" ToRole="PhieuNhap" />
+        </EntityType>
+        <EntityType Name="DSDatHang">
+          <Key>
+            <PropertyRef Name="NgayDat" />
+            <PropertyRef Name="MaNguyenLieu" />
+          </Key>
+          <Property Type="DateTime" Name="NgayDat" Nullable="false" annotation:StoreGeneratedPattern="None" />
+          <Property Type="Int32" Name="SoLuong" Nullable="false" />
+          <NavigationProperty Name="NguyenLieu" Relationship="CafeModel.DSDatHangNguyenLieu" FromRole="DSDatHang" ToRole="NguyenLieu" />
+          <Property Type="String" Name="MaNguyenLieu" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="DSDatHangNguyenLieu">
+          <End Type="CafeModel.DSDatHang" Role="DSDatHang" Multiplicity="*" />
+          <End Type="CafeModel.NguyenLieu" Role="NguyenLieu" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="NguyenLieu">
+              <PropertyRef Name="MaNguyenLieu" />
+            </Principal>
+            <Dependent Role="DSDatHang">
+              <PropertyRef Name="MaNguyenLieu" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="PhieuNhapNguyenLieu">
+          <End Type="CafeModel.PhieuNhap" Role="PhieuNhap" Multiplicity="*" />
+          <End Type="CafeModel.NguyenLieu" Role="NguyenLieu" Multiplicity="1" />
+          <ReferentialConstraint>
+            <Principal Role="NguyenLieu">
+              <PropertyRef Name="MaNguyenLieu" />
+            </Principal>
+            <Dependent Role="PhieuNhap">
+              <PropertyRef Name="MaNguyenLieu" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CafeModelStoreContainer" CdmEntityContainer="CafeEntities">
+    <EntitySetMapping Name="Bans">
+      <EntityTypeMapping TypeName="IsTypeOf(CafeModel.Ban)">
+        <MappingFragment StoreEntitySet="Bans">
+          <ScalarProperty Name="MaBan" ColumnName="MaBan" />
+          <ScalarProperty Name="TenBan" ColumnName="TenBan" />
+          <ScalarProperty Name="MaPhucVu" ColumnName="MaPhucVu" />
+          <ScalarProperty Name="SucChua" ColumnName="SucChua" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CTHDs">
+      <EntityTypeMapping TypeName="IsTypeOf(CafeModel.CTHD)">
+        <MappingFragment StoreEntitySet="CTHDs">
+          <ScalarProperty Name="MaHoaDon" ColumnName="MaHoaDon" />
+          <ScalarProperty Name="MaSanPham" ColumnName="MaSanPham" />
+          <ScalarProperty Name="ThoiGianGoi" ColumnName="ThoiGianGoi" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDons">
+      <EntityTypeMapping TypeName="IsTypeOf(CafeModel.HoaDon)">
+        <MappingFragment StoreEntitySet="HoaDons">
+          <ScalarProperty Name="MaHoaDon" ColumnName="MaHoaDon" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+          <ScalarProperty Name="MaBan" ColumnName="MaBan" />
+          <ScalarProperty Name="TongTien" ColumnName="TongTien" />
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="MaThuNgan" ColumnName="MaThuNgan" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiSPs">
+      <EntityTypeMapping TypeName="IsTypeOf(CafeModel.LoaiSP)">
+        <MappingFragment StoreEntitySet="LoaiSPs">
+          <ScalarProperty Name="MaLoaiSP" ColumnName="MaLoaiSP" />
+          <ScalarProperty Name="TenLoaiSP" ColumnName="TenLoaiSP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NguoiDungs">
+      <EntityTypeMapping TypeName="IsTypeOf(CafeModel.NguoiDung)">
+        <MappingFragment StoreEntitySet="NguoiDungs">
+          <ScalarProperty Name="MaNguoiDung" ColumnName="MaNguoiDung" />
+          <ScalarProperty Name="TaiKhoan" ColumnName="TaiKhoan" />
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="QuyenHan" ColumnName="QuyenHan" />
+          <ScalarProperty Name="TenNguoiDung" ColumnName="TenNguoiDung" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhieuNhaps">
+      <EntityTypeMapping TypeName="IsTypeOf(CafeModel.PhieuNhap)">
+        <MappingFragment StoreEntitySet="PhieuNhaps">
+          <ScalarProperty Name="Ngay" ColumnName="Ngay" />
+          <ScalarProperty Name="SoTienTra" ColumnName="SoTienTra" />
+          <ScalarProperty Name="SoLuongNhap" ColumnName="SoLuongNhap" />
+          <ScalarProperty Name="MaNguyenLieu" ColumnName="MaNguyenLieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanPhams">
+      <EntityTypeMapping TypeName="IsTypeOf(CafeModel.SanPham)">
+        <MappingFragment StoreEntitySet="SanPhams">
+          <ScalarProperty Name="MaSanPham" ColumnName="MaSanPham" />
+          <ScalarProperty Name="TenSanPham" ColumnName="TenSanPham" />
+          <ScalarProperty Name="MaLoaiSP" ColumnName="MaLoaiSP" />
+          <ScalarProperty Name="DonGiaBan" ColumnName="DonGiaBan" />
+          <ScalarProperty Name="DonVi" ColumnName="DonVi" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NguyenLieus">
+      <EntityTypeMapping TypeName="IsTypeOf(CafeModel.NguyenLieu)">
+        <MappingFragment StoreEntitySet="NguyenLieus">
+          <ScalarProperty Name="MaNguyenLieu" ColumnName="MaNguyenLieu" />
+          <ScalarProperty Name="TenNguyenLieu" ColumnName="TenNguyenLieu" />
+          <ScalarProperty Name="DonGiaNhap" ColumnName="DonGiaNhap" />
+          <ScalarProperty Name="NhaCungCap" ColumnName="NhaCungCap" />
+          <ScalarProperty Name="DonVi" ColumnName="DonVi" />
+          <ScalarProperty Name="SLConThieu" ColumnName="SLConThieu" />
+          <ScalarProperty Name="TienConNo" ColumnName="TienConNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DSDatHangs">
+      <EntityTypeMapping TypeName="IsTypeOf(CafeModel.DSDatHang)">
+        <MappingFragment StoreEntitySet="DSDatHangs">
+          <ScalarProperty Name="NgayDat" ColumnName="NgayDat" />
+          <ScalarProperty Name="MaNguyenLieu" ColumnName="MaNguyenLieu" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
